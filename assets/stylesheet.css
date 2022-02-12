@@ -1,0 +1,68 @@
+* {
+
+}
+
+body {
+
+}
+
+/* apply styles to <header> STARTS*/
+
+header {
+    background-color: lavender;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    padding: 0 30px 0 0;
+}
+}
+
+header a {
+    text-decoration: none;
+    color: teal;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0 10px 0 10px;
+}
+/*
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* apply styles to <header> ENDS */
+.hero {
+    background-image: url("../images/hand-painted-watercolor.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-position: 80%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
