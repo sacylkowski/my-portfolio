@@ -17,7 +17,6 @@ header {
     padding: 0 30px 0 0;
 }
 
-
 header a {
     text-decoration: none;
     color: teal;
@@ -39,51 +38,61 @@ header nav ul li a {
     font-weight: bold;
     font-size: 20px;
     color: teal;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     padding: 0px 50px 0 50px;
 }
-/*
+
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
 }
 
 /* apply styles to <header> ENDS */
+
+
 .name-picture{
     background-image: url("images/hand-painted-watercolor.jpg");
     background-size: cover;
-    background-position: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     position: relative;
 }
 
 .name {
-    margin: 20px auto;
-    position: absolute;
+    margin: auto 50px auto 10px;
+    text-align: right;
+    font-size: 20px;
+    color: black;
 }
 
-h1 {
+.name h1 {
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 36px;
+    font-style: italic;
     color: black;
-    margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.name-picture img {
-    width: 30%;
-    justify-content: flex-end;
-    position: absolute;
-
+.portrait img{
+    width: 50%;
+    margin: 20px;
 }
 
+/* About Me section STARTS */
+
+
 /* project section STARTS */
+
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-work a {
+    
+}
 
 /* project section ENDS */
 
