@@ -80,18 +80,44 @@ header nav ul li a:hover {
     margin: 20px;
 }
 
+.section-title {
+    font-size: 40px;
+    color: black;
+    border-bottom: 3px solid;
+    border-color: black;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px auto 35px auto;
+    width: 80%
+}
 /* About Me section STARTS */
 
+.me {
+    background-color: lavender;
 
+}
+
+.me p {
+    line-height: 1.5;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    font: 20px;
+    width: 80%;
+    padding: 30px 0;
+}
 /* project section STARTS */
 
 .my-work {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
-.my-work a {
-    
+
+.my-work img {
+    justify-content: space-between;
+    padding: 20px;
 }
 
 /* project section ENDS */
