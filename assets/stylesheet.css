@@ -125,7 +125,8 @@ header nav ul li a:hover {
 /* contact section STARTS */
 
 .contact {
-
+    background: lavender;
+    display: flex;
 }
 
 .contact img {
@@ -134,4 +135,28 @@ header nav ul li a:hover {
 
 }
 
+.contact-form input, .contact-form textarea {
+    border: 1px solid black;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: teal;
+    width: 30%;
+    margin: 5px 0 15px 0;
+    border-radius: 10px;
+    background-color: green;
+}
+
 /* contact section ENDS */
+
+footer {
+    background: lavender;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer div {
+    text-align: left;
+}
