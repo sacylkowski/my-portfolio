@@ -79,16 +79,6 @@ header nav ul li a:hover {
     margin: 20px;
 }
 
-.section-title {
-    font-size: 40px;
-    color: black;
-    border-bottom: 3px solid;
-    border-color: black;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 20px auto 35px auto;
-    width: 80%
-}
 /* About Me section STARTS */
 
 .me {
@@ -209,5 +199,61 @@ footer {
 footer div {
     text-align: left;
 }
-/* Footer section ENDS /*
+/* Footer section ENDS */
 
+.section-title {
+    font-size: 40px;
+    color: black;
+    border-bottom: 3px solid;
+    border-color: black;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px auto 35px auto;
+    width: 80%
+}
+
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .name, .portrait {
+        width:100%
+    }
+
+    .name {
+        text-align: center;
+    }
+    .section-title {
+        width: 80%;
+    }
+}
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .name-picture {
+        flex-direction: column;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+    .contact-form button {
+        width: 100%;
+    }
+
+    .section-title {
+        width: 95%;
+    }
+    
+    .my-work img {
+        margin: auto;
+        display: block;
+    }
+
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+    }
+}
