@@ -113,12 +113,25 @@ header nav ul li a:hover {
     align-items: center;
 }
 
+.first-project {
+    width: 100%;
+    align-content: center;
+}
+
 .my-work img {
     opacity: 0.5;
     filter: alpha(opacity=40);
     width: 275px;
     justify-content: center;
     padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+.first-project img {
+    width: 75%;
+    margin: auto;
+    display: block;
 }
 
 .my-work img:hover {
