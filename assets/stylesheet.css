@@ -1,15 +1,20 @@
+:root {
+    --lavender: lavender;
+    --black: black;
+}
+
 * {
     padding: 0;
 }
 
 body {
-    background-color: lavender;
+    background-color: var(--lavender);
 }
 
 /* apply styles to <header> STARTS*/
 
 header {
-    background-color: lavender;
+    background-color: var(--lavender);
     display: flex;
     flex-wrap: wrap;
     top: 0;
@@ -43,7 +48,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: black;
+    background: var(--black);
     color: white;
     border-radius: 5px;
 }
@@ -62,7 +67,7 @@ header nav ul li a:hover {
     margin: auto 50px auto 10px;
     text-align: right;
     font-size: 20px;
-    color: black;
+    color: var(--black);
 }
 
 .name h1 {
@@ -70,7 +75,7 @@ header nav ul li a:hover {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 36px;
     font-style: italic;
-    color: black;
+    color: var(--black);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -82,13 +87,13 @@ header nav ul li a:hover {
 /* About Me section STARTS */
 
 .me {
-    background-color: lavender;
+    background-color: var(--lavender);
 
 }
 
 .me p {
     line-height: 1.5;
-    color: black;
+    color: var(--black);
     margin: 0 auto;
     text-align: center;
     font: 20px;
@@ -134,7 +139,7 @@ header nav ul li a:hover {
 /* contact section STARTS */
 
 .contact-me {
-    background: lavender;
+    background: var(--lavender);
     display: flex;
 }
 
@@ -159,7 +164,7 @@ address {
     font-size: 20px;
 }
 .contact-form input, .contact-form textarea {
-    border: 1px solid black;
+    border: 1px solid var(--black);
     display: block;
     padding: 6px 30px;
     font-size: 16px;
@@ -171,8 +176,8 @@ address {
 
 .contact-form button {
     padding: 10px 20px;
-    background-color: black;
-    color: lavender;
+    background-color: var(--black);
+    color: var(--lavender);
     font-size: 16px;
     border: none;
     border-radius: 10px;
@@ -180,7 +185,7 @@ address {
 }
 
 .contact-form button:hover {
-    background-color: black;
+    background-color: var(--black);
     color: teal;
 }
 
@@ -203,9 +208,9 @@ footer div {
 
 .section-title {
     font-size: 40px;
-    color: black;
+    color: var(--black);
     border-bottom: 3px solid;
-    border-color: black;
+    border-color: var(--black);
     padding-bottom: 20px;
     text-align: center;
     margin: 20px auto 35px auto;
@@ -231,9 +236,13 @@ footer div {
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 625px) {
     .name-picture {
         flex-direction: column;
+    }
+
+    .portrait {
+        margin: 10px auto;
     }
 
     .projects {
