@@ -57,7 +57,7 @@ header nav ul li a:hover {
 
 
 .name-picture{
-    background-image: url("images/hand-painted-watercolor.jpg");
+    background-image: url("images/Portfolio-background.jpg");
     background-size: cover;
     display: flex;
     position: relative;
@@ -106,6 +106,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-image: url("images/Portfolio-background.jpg")
 }
 
 .first-project {
@@ -192,7 +193,7 @@ address {
 /* contact section ENDS */
 
 footer {
-    background-image: url("images/hand-painted-watercolor.jpg");
+    background-image: url("images/Portfolio-background.jpg");
     background-size: cover;
     width: 100%;
     padding: 25px;
